@@ -1,0 +1,3 @@
+{"prompt": "Pay Sophia 200 bucks", "completion": "{\"action\": \"pay\", \"recipient\": \"Sophia\", \"amount\": 200, \"currency\": \"USD\"}"}
+{"prompt": "Send $50 to John", "completion": "{\"action\": \"pay\", \"recipient\": \"John\", \"amount\": 50, \"currency\": \"USD\"}"}
+{"prompt": "Repeat last payment to Alex", "completion": "{\"action\": \"pay\", \"recipient\": \"Alex\", \"amount\": 100, \"currency\": \"USD\"}"}
