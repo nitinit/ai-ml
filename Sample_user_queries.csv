@@ -1,0 +1,241 @@
+,Type,Prompt,intent,level
+0,Group,"Add expense of $20 to group ""Travel Friends""",add_expense,L1
+1,Group,Add rent of $1200 to House Bills group,add_expense,L1
+2,Group,Add $95 groceries to “House Bills” group,add_expense,L1
+3,Group,Add a $350 software charge to Startup Budget group,add_expense,L2
+4,Group,Log $60 Spotify family plan to Monthly Subscriptions,add_expense,L2
+5,Group,Add equipment bill of $480 to Band Practice group,add_expense,L2
+6,Group,Add a dinner bill of $240 to Tahoe trip group,add_expense,L2
+7,Group,"Add Sarah to ""Startup Budget"" group",add_member,L1
+8,Group,"Add Charlie to group ""Travel Friends""",add_member,L1
+9,Group,Add Mike to the House Bills group,add_member,L1
+10,Group,"Add multiple people: Josh, Amy, and Chris to Tahoe Trip",add_member,L2
+11,Group,What’s my share of rent in House Bills?,check_balance,L1
+12,Group,Do I owe the group money?,check_balance,L2
+13,Group,What’s my total due across all groups?,check_balance,L2
+14,Group,Do I owe anyone in the Startup Budget group?,check_balance,L2
+15,Group,How much do I owe in the group for my band practice?,check_balance,L2
+16,Group,Am I owed money from groups?,check_balance,L2
+17,Group,"Create a group called ""Travel Friends"" with Bob and Alice",create_group,L1
+18,Group,Create a new group “Monthly Subscriptions” with Alex & Ben,create_group,L1
+19,Group,"Start a group called ""Startup Budget"" with John and Emma",create_group,L1
+20,Group,Make a group for “House Bills” with Lisa and Tom,create_group,L1
+21,Group,Show breakdown for Weekend Warriors group,group_summary,L2
+22,Group,Show me a summary of the group for my band practice,group_summary,L2
+23,Group,Show full activity of Startup Budget group,group_summary,L3
+24,Group,Summary of all groups with pending balances,group_summary,L3
+25,Group,Hide all my groups with zero balance,hide_groups,L2
+26,Group,Hide all inactive groups,hide_groups,L2
+27,Group,Hide all my groups that are already settled,hide_groups,L2
+28,Group,Hide the group for my recent trip to Tahoe if it’s settled,hide_groups,L3
+29,Group,Hide any closed-out groups from last year,hide_groups,L3
+30,Group,Exit from Startup Budget group,leave_group,L1
+31,Group,Leave the “Startup Budget” and “Band Practice” groups,leave_group,L3
+32,Group,Leave all the groups with @michael in it,leave_group,L3
+33,Group,Leave all the groups where I paid everything,leave_group,L3
+34,Group,"Pay group ""Travel Friends""",pay_group,L1
+35,Group,Pay off rent in House Bills group,pay_group,L1
+36,Group,Pay $175 in Startup Budget group,pay_group,L1
+37,Group,Pay everything I owe across all groups,pay_group,L3
+38,Group,Generate an invite link for the Startup Budget group,share_group,L2
+39,Group,"Create a group link for ""House Bills"" for new roommate",share_group,L2
+40,Group,Get a shareable link to the group for Tahoe trip,share_group,L2
+41,Group,Share a link for my band practice group,share_group,L2
+42,Group,What groups am I in?,view_groups,L1
+43,Group,What’s the most active group I’m in?,view_groups,L3
+44,Group,List all groups I’ve joined this month,view_groups,L3
+45,Group,List all my groups with over 3 members,view_groups,L3
+46,P2P,Fund my Venmo with $90 from Chase,add_money,L1
+47,P2P,Top up my account by $50,add_money,L1
+48,P2P,Load $25 from my Wells Fargo account,add_money,L1
+49,P2P,Pull $100 from my debit card,add_money,L1
+50,P2P,Deposit $40 into Venmo,add_money,L1
+51,P2P,Add $75 to my account,add_money,L1
+52,P2P,Add money using my credit card,add_money,L1
+53,P2P,Add $60 to my Venmo from savings,add_money,L1
+54,P2P,Top up from Bank of America,add_money,L1
+55,P2P,Pull $50 from my bank account,add_money,L1
+56,P2P,Quick add $150 to my Venmo,add_money_instant,L1
+57,P2P,Top up $80 instantly from bank,add_money_instant,L1
+58,P2P,Instantly add $75 from debit card,add_money_instant,L1
+59,P2P,Add $60 fast from my linked debit,add_money_instant,L1
+60,P2P,Pull funds from card immediately,add_money_instant,L1
+61,P2P,Add $50 instantly from Wells Fargo card,add_money_instant,L1
+62,P2P,Rush money in from checking,add_money_instant,L1
+63,P2P,Load $100 right now from my card,add_money_instant,L1
+64,P2P,Deposit $120 from my card instantly,add_money_instant,L1
+65,P2P,Add money now using Visa,add_money_instant,L1
+66,P2P,Fund my balance with bank transfer (standard),add_money_standard,L1
+67,P2P,Add $60 from my bank account,add_money_standard,L1
+68,P2P,Top up $100 from checking standard,add_money_standard,L1
+69,P2P,Deposit $80 into Venmo from Wells Fargo,add_money_standard,L1
+70,P2P,"Load $90 from checking, no rush",add_money_standard,L1
+71,P2P,Add $40 using default bank account,add_money_standard,L1
+72,P2P,Load funds with regular speed,add_money_standard,L1
+73,P2P,Pull $50 from my bank next business day,add_money_standard,L1
+74,P2P,Add money normally from savings,add_money_standard,L1
+75,P2P,Top up my Venmo via ACH,add_money_standard,L1
+76,P2P,Cancel the bill payment for water,cancel_payment,L2
+77,P2P,Cancel the payment to Olivia,cancel_payment,L2
+78,P2P,Cancel the bill payment for electricity,cancel_payment,L2
+79,P2P,Cancel the bill payment for internet,cancel_payment,L2
+80,P2P,Cancel the bill payment for gas,cancel_payment,L2
+81,P2P,Pay $25 to my Discover card,pay_credit_card,L1
+82,P2P,Pay $5 to my Chase Sapphire card,pay_credit_card,L1
+83,P2P,Pay $200 to my Amex card,pay_credit_card,L1
+84,P2P,Pay $25 to my Capital One card,pay_credit_card,L1
+85,P2P,Pay $75 to my Capital One card,pay_credit_card,L1
+86,P2P,Pay $100 to my Chase Sapphire card,pay_credit_card,L1
+87,P2P,Pay $10 to my Citi card,pay_credit_card,L1
+88,P2P,Pay $75 to Apple Store,pay_merchant,L1
+89,P2P,Pay $15 to Amazon,pay_merchant,L1
+90,P2P,Pay $25 to Walmart,pay_merchant,L1
+91,P2P,Pay $100 to Target,pay_merchant,L1
+92,P2P,Pay $150 to Trader Joe's,pay_merchant,L1
+93,P2P,Pay $75 to Best Buy,pay_merchant,L1
+94,P2P,Pay $100 to CVS,pay_merchant,L1
+95,P2P,Repeat the last payment to Trader Joe's,pay_merchant,L2
+96,P2P,Repeat the last payment to Best Buy,pay_merchant,L2
+97,P2P,Repeat the last payment to Amazon,pay_merchant,L2
+98,P2P,Repeat the last payment to CVS,pay_merchant,L2
+99,P2P,Repeat the last payment to Apple Store,pay_merchant,L2
+100,P2P,Repeat the last payment to Target,pay_merchant,L2
+101,P2P,Repeat the last payment to Walmart,pay_merchant,L2
+102,P2P,Renew my Hulu subscription,pay_subscription,L1
+103,P2P,Renew my YouTube Premium subscription,pay_subscription,L1
+104,P2P,Renew my Spotify subscription,pay_subscription,L1
+105,P2P,Renew my Amazon Prime subscription,pay_subscription,L1
+106,P2P,Renew my Netflix subscription,pay_subscription,L1
+107,P2P,Can you handle the usual Amazon Prime payment?,pay_subscription,L2
+108,P2P,Can you handle the usual Spotify payment?,pay_subscription,L2
+109,P2P,Can you handle the usual YouTube Premium payment?,pay_subscription,L2
+110,P2P,Can you handle the usual Netflix payment?,pay_subscription,L2
+111,P2P,Can you handle the usual Hulu payment?,pay_subscription,L2
+112,P2P,Pay my gas bill,pay_utility,L1
+113,P2P,Pay my water bill,pay_utility,L1
+114,P2P,Pay my electricity bill,pay_utility,L1
+115,P2P,Pay my internet bill,pay_utility,L1
+116,P2P,What are my current subscriptions and recurring payments?,query_recurring,L2
+117,P2P,What recurring payments do I have with Bob?,query_recurring,L2
+118,P2P,Repeat last payment to Sophia,repeat_payment,L1
+119,P2P,Ask Ben to send me $75,request_money,L1
+120,P2P,Hey can you request $60 from Sophia,request_money,L2
+121,P2P,Okay now request $60 from Emily,request_money,L2
+122,P2P,"Sure, go ahead and request $40 from Ben",request_money,L2
+123,P2P,Send $20 to Mike,send_money,L1
+124,P2P,well... send tree hundred to Sophia,send_money,L2
+125,P2P,um... send tree hundred to Tom,send_money,L2
+126,P2P,okay... send won hundred to Alice,send_money,L2
+127,P2P,"You know, pay Megan the usual",send_money,L2
+128,P2P,let me see... send too fifty to Olivia,send_money,L2
+129,P2P,um... send one thirty five to Sophia,send_money,L2
+130,P2P,"Uh, pay Alice $20 please",send_money,L2
+131,P2P,"You know, pay Emily the usual",send_money,L2
+132,P2P,like... send won hundred to Liam,send_money,L2
+133,P2P,Let's also send $80 to Liam for dinner,send_money,L2
+134,P2P,Cash out everything to my debit card,transfer_out,L1
+135,P2P,Move $50 to my account,transfer_out,L1
+136,P2P,Transfer out what's left in my balance,transfer_out,L1
+137,P2P,Send my full Venmo balance to my bank,transfer_out,L1
+138,P2P,Transfer all available funds to Chase,transfer_out,L1
+139,P2P,Move $60 from Venmo to my savings,transfer_out,L1
+140,P2P,Cash out $100,transfer_out,L1
+141,P2P,Transfer my balance to my bank,transfer_out,L1
+142,P2P,Transfer out $20,transfer_out,L1
+143,P2P,Withdraw $75 to my checking account,transfer_out,L1
+144,P2P,Move funds now to my debit card,transfer_out_instant,L1
+145,P2P,Send balance to my bank instantly,transfer_out_instant,L1
+146,P2P,Cash out immediately to checking,transfer_out_instant,L1
+147,P2P,Instantly cash out $80 to my card,transfer_out_instant,L1
+148,P2P,Transfer my Venmo funds immediately,transfer_out_instant,L1
+149,P2P,Pay out $150 instantly,transfer_out_instant,L1
+150,P2P,Rush $100 to my account now,transfer_out_instant,L1
+151,P2P,Do a quick transfer to my debit card,transfer_out_instant,L1
+152,P2P,Transfer out $90 instantly,transfer_out_instant,L1
+153,P2P,Instant transfer to my Chase account,transfer_out_instant,L1
+154,P2P,Cash out $50 using standard option,transfer_out_standard,L1
+155,P2P,Withdraw my full Venmo balance standard,transfer_out_standard,L1
+156,P2P,Transfer $200 to my bank in 1,transfer_out_standard,L1
+157,P2P,Withdraw $75 to checking normally,transfer_out_standard,L1
+158,P2P,Move funds to my savings with no rush,transfer_out_standard,L1
+159,P2P,Transfer out $100 to my bank account,transfer_out_standard,L1
+160,P2P,Schedule a standard cash out to my debit card,transfer_out_standard,L1
+161,P2P,Send balance to Chase with standard transfer,transfer_out_standard,L1
+162,P2P,Move all funds to Wells Fargo standard,transfer_out_standard,L1
+163,P2P,Transfer what‚Äôs left to my checking by default,transfer_out_standard,L1
+164,Venmo Business,Cancel unpaid invoice to Robert,Cancel Invoice,L1
+165,Venmo Business,Cancel unpaid invoice to Michael,Cancel Invoice,L2
+166,Venmo Business,Cancel last transaction to Jennifer,Cancel Last Transaction,L2
+167,Venmo Business,Check if John paid their invoice,Check Invoice Status,L1
+168,Venmo Business,Check if Linda paid their invoice,Check Invoice Status,L2
+169,Venmo Business,Why is my transaction with Michael pending?,Check Payment Issue,L1
+170,Venmo Business,Why is my transaction with Jennifer pending?,Check Payment Issue,L1
+171,Venmo Business,Why is my transaction with Elizabeth pending?,Check Payment Issue,L2
+172,Venmo Business,Why is my transaction with James pending?,Check Payment Issue,L2
+173,Venmo Business,Compare earnings this month with last month,Compare Earnings,L2
+174,Venmo Business,Copy payment QR for $100,Copy QR Code,L1
+175,Venmo Business,Copy payment QR for $120,Copy QR Code,L2
+176,Venmo Business,Delete invoice to David sent last week,Delete Invoice,L2
+177,Venmo Business,Turn off tips on my business profile,Disable Tips,L1
+178,Venmo Business,Turn off tips on my business profile,Disable Tips,L2
+179,Venmo Business,Turn off tips on my business profile,Disable Tips,L3
+180,Venmo Business,Export sales CSV for April 2025,Download Sales Data,L1
+181,Venmo Business,Export sales CSV for March 2024,Download Sales Data,L2
+182,Venmo Business,Export sales CSV for March 2024,Download Sales Data,L3
+183,Venmo Business,Download statement for May 2025,Download Statement,L1
+184,Venmo Business,Email tax report for April 2024,Email Tax Report,L1
+185,Venmo Business,Email tax report for April 2025,Email Tax Report,L2
+186,Venmo Business,Enable tips with default 10%,Enable Tips,L1
+187,Venmo Business,Enable tips with default 15%,Enable Tips,L2
+188,Venmo Business,Send invoice to Jennifer for $50 and Confirm and Email receipt,Invoice & Email,L3
+189,Venmo Business,Report issue with transaction to James,Report Issue,L1
+190,Venmo Business,Report issue with transaction to Elizabeth,Report Issue,L2
+191,Venmo Business,Report issue with transaction to Robert,Report Issue,L3
+192,Venmo Business,Ask Michael to pay $160 for coffee,Request Payment,L1
+193,Venmo Business,Request $10 from Robert for t-shirt,Request Payment,L1
+194,Venmo Business,Ask David to pay $10 for t-shirt,Request Payment,L1
+195,Venmo Business,Ask Jennifer to pay $50 for coffee,Request Payment,L2
+196,Venmo Business,Request $120 from David for subscription,Request Payment,L2
+197,Venmo Business,Ask Michael to pay $200 for membership,Request Payment,L2
+198,Venmo Business,Ask Elizabeth to pay $170 for supplies,Request Payment,L3
+199,Venmo Business,Ask Jennifer to pay $50 for event ticket,Request Payment,L3
+200,Venmo Business,Request $110 from James for subscription,Request Payment,L3
+201,Venmo Business,Ask Robert to pay $60 for invoice,Request Payment,L3
+202,Venmo Business,Request $100 from Linda and Add tip and Share QR,Request with Tip & Share,L3
+203,Venmo Business,Resend failed payment request to Robert,Resend Payment Request,L1
+204,Venmo Business,Resend failed payment request to David,Resend Payment Request,L2
+205,Venmo Business,Resend failed payment request to Elizabeth,Resend Payment Request,L3
+206,Venmo Business,Retry failed transfer to debit card,Retry Transfer,L2
+207,Venmo Business,Send invoice to Jennifer for $110 with memo 'membership',Send Invoice,L1
+208,Venmo Business,Send invoice to David for $150 with memo 'membership',Send Invoice,L2
+209,Venmo Business,Send invoice to Jennifer for $160 with memo 'supplies',Send Invoice,L3
+210,Venmo Business,Pay $100 to Jennifer for t-shirt,Send Payment,L1
+211,Venmo Business,Pay $20 to Michael for flower order,Send Payment,L2
+212,Venmo Business,Pay $40 to Patricia for membership,Send Payment,L2
+213,Venmo Business,Pay $150 to David for supplies,Send Payment,L2
+214,Venmo Business,Pay $60 to John for coffee,Send Payment,L2
+215,Venmo Business,Pay $150 to Michael for t-shirt,Send Payment,L3
+216,Venmo Business,Set category to 'Education',Set Business Category,L1
+217,Venmo Business,Set category to 'Fitness',Set Business Category,L2
+218,Venmo Business,Set recommended tip to 20%,Set Tip Recommendation,L1
+219,Venmo Business,Set recommended tip to 10%,Set Tip Recommendation,L2
+220,Venmo Business,Share my address and hours with Elizabeth,Share Business Info,L1
+221,Venmo Business,Share my address and hours with Michael,Share Business Info,L2
+222,Venmo Business,Share my address and hours with Elizabeth,Share Business Info,L3
+223,Venmo Business,Share my QR code for $110 to Jennifer,Share QR Code,L1
+224,Venmo Business,Share my QR code for $180 to Robert,Share QR Code,L2
+225,Venmo Business,Share my QR code for $120 to John,Share QR Code,L3
+226,Venmo Business,Show QR code for $120 with memo 'membership',Show QR Code,L1
+227,Venmo Business,Show QR code for $100 with memo 'subscription',Show QR Code,L2
+228,Venmo Business,Show last 10 transactions,Show Transaction History,L1
+229,Venmo Business,List top 10 customers by payment,Top Customers,L1
+230,Venmo Business,Transfer $110 and Download receipt and Email to accountant,Transfer & Email,L3
+231,Venmo Business,Send entire balance to Citi,Transfer All Funds,L1
+232,Venmo Business,Send entire balance to Chase,Transfer All Funds,L1
+233,Venmo Business,Send entire balance to Venmo personal account,Transfer All Funds,L3
+234,Venmo Business,Send entire balance to Capital One,Transfer All Funds,L3
+235,Venmo Business,Transfer $10 to Wells Fargo,Transfer Funds,L1
+236,Venmo Business,Transfer $10 to Venmo personal account,Transfer Funds,L1
+237,Venmo Business,Transfer $120 to my personal Venmo account,Transfer to Personal,L1
+238,Venmo Business,Transfer $200 to my personal Venmo account,Transfer to Personal,L1
+239,Venmo Business,Update business username to @breezecafe,Update Business Handle,L1
